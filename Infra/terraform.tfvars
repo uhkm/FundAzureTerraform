@@ -1,0 +1,9 @@
+location             = "eastus"
+resource_group_name  = "fundrg"
+storage_account_name = "fundsac"
+source_content       = "<h1> Hola !! this is a static website deployed using Terraform </h1>"
+index_document       = "index.html"
+client_id            = "" # appId of the Service Principal
+tenant_id            = "" # tenantId of your Azure Active Directory
+client_secret        = ""
+subscription_id      = ""
